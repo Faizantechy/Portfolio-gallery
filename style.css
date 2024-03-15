@@ -5,15 +5,20 @@
     box-sizing: border-box;
 }
 
+
+body{
+
+    background-color: rgb(13, 69, 38);
+
+}
 .Container{
 
     width: 100%;
-    height: 100%;
+    height: 100vh;
     display: flex;
     justify-content: center;
     gap: 30px;
     align-items: center;
-    background-color: rgb(13, 69, 38);
 }
 
 .portfolio h1{
